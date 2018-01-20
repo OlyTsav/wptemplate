@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+
+Theme Name: Phuk Ya Thai Food
+Author: Tyler Savin
+Description: Theme design and coded by Tyler Savin
+Version: 1
+License: @copy; 2015 Tyler Savin
+Tags: Bootstrap,custom,frontpage,minimal,jquery,easing,navigation
+Text Domain: phukyathaifood
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*
+TABLE OF CONTENTS
+
+COLORS
+
+FONTS
+font-family:'futura-pt', sans-serif;
+font-family: "coquette";
+*/
+
+body{
+	font-size:16px;
+  	color: rgba(34,34,34,1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+
+a:active,a:focus{
+	background-color:transparent;
+}
+
+ul{
+	-webkit-padding-start:0;
+	padding-left:0px;
+}
+
+section{
+	padding:62px 0;
+}
+
+.clearfix:before,
+.clearfix:after{
+  	content: " ";
+  	display: table;
+}
+ 
+.clearfix:after{
+  	clear: both;
+}
+ 
+.clearfix{
+  	*zoom: 1;
+}
